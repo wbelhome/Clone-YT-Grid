@@ -1,0 +1,29 @@
+#button{
+    border: none;
+}
+
+body{
+
+}
+
+.header{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header .left-header{
+    padding: 10px;
+    grid-row-start: 1;
+    background-color: aqua;
+}
+
+.aside{
+    background-color: blue;
+    grid-area: aside;
+}
+
+.section{
+    background-color: lightgreen;
+    grid-area: section;
+}
