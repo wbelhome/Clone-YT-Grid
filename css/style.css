@@ -1,8 +1,8 @@
-#button{
+ #button{
     border: none;
     background-color: white;
     cursor: pointer;
-    height: 24px;
+
 }
 
 img{
@@ -13,14 +13,14 @@ img{
 
 body{
     display: grid;
-    grid-template: 
+    grid-template:
     "header header header" minmax(10px, auto)
     "aside section section" minmax(600px, auto)
     / 0.4fr 1fr 1fr;
-    
+
 }
 
-.header{ 
+.header{
     display: grid;
     height: 40px;
     grid-area: header;
@@ -65,6 +65,7 @@ body{
     border: 1px solid black;
     border-radius: 0px 10px 10px 0px;
     width: 15%;
+    height: 24px;
 }
 
 .search #button img{
@@ -84,7 +85,7 @@ body{
 .aside{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: repeat(10, 40px); 
+    grid-template-rows: repeat(10, 40px);
     padding: 16px;
 }
 
@@ -98,6 +99,45 @@ body{
 }
 
 .section{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 400px));
     grid-area: section;
-    background-color: blueviolet;
+    padding: 16px;
+}
+
+.video-section{
+    padding: 10px;
+}
+
+.video-section .image-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.video-section .avatar-video{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.video-section .avatar-video img{
+    padding-right: 10px;
+}
+
+.video-section .info-video{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.video-section .info-video h1{
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.info-video .sub-info{
+    color: #aaa;
+    font-size: 0.5rem;
+    text-shadow: 0px 0px .5px black;
 }
