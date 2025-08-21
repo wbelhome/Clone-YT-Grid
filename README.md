@@ -34,7 +34,7 @@ O projeto foi dividido em três partes principais:
 
 ## 📂 Estrutura de Pastas  
 ```plaintext
-📦 clone-youtube-grid
+📦 Clone-YT-Grid
  ┣ 📂 assets       # Imagens e ícones utilizados no projeto
  ┣ 📂 css          # Arquivos de estilo
  ┣ 📜 index.html   # Página principal
@@ -44,7 +44,7 @@ O projeto foi dividido em três partes principais:
 
 ## 📚 Aprendizados
 
-- Durante o desenvolvimento, foram reforçados conceitos como:
+Durante o desenvolvimento, foram reforçados conceitos como:
 
 - Estruturação semântica em HTML
 
